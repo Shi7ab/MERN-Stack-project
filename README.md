@@ -1,98 +1,70 @@
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📘 Note Taking App
+## Available Scripts
 
-A full-stack **Note Taking Application** built with **React.js (frontend)** and **Node.js + Express + MongoDB (backend)**. Users can create, view, and manage personal notes easily through a simple and responsive interface.
+In the project directory, you can run:
 
----
+### `npm start`
 
-### 🚀 Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* 📝 Create new notes with title and description
-* 📋 View all saved notes
-* 📁 Store data in **MongoDB database**
-* 🔄 Fully functional REST API with **Express.js**
-* ⚛️ Clean and responsive UI built using **React Hooks**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-### 🛠️ Tech Stack
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-| Frontend | Backend    | Database |
-| -------- | ---------- | -------- |
-| React    | Node.js    | MongoDB  |
-| Axios    | Express.js | Mongoose |
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 📂 Folder Structure
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
-my-app/
-├── backend/
-│   ├── routes/
-│   ├── service/
-│   ├── module/
-│   ├── config/
-│   └── server.js
-└── frontend/
-    ├── src/
-    │   ├── pages/
-    │   ├── API/
-    │   └── App.js
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-### 📦 Setup Instructions
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. **Clone the repository**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-git clone https://github.com/your-username/note-app.git
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-2. **Install frontend and backend dependencies**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-cd backend
-npm install
+## Learn More
 
-cd ../frontend
-npm install
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. **Run the backend server**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```bash
-cd backend
-npm start
-```
+### Code Splitting
 
-4. **Run the frontend React app**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```bash
-cd frontend
-npm start
-```
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### 🧠 Future Improvements
+### Making a Progressive Web App
 
-* Add user authentication
-* Edit & delete notes
-* Search and filter notes
-* Responsive design for mobile
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
----
+### Advanced Configuration
 
-### 🙌 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### 📄 License
+### `npm run build` fails to minify
 
-This project is open-source and available under the [MIT License](LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
